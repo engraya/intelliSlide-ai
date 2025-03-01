@@ -12,8 +12,13 @@ const Footer = () => {
           'md:flex-row',
         )}
       >
-        <div className='space-x-4 text-center dark:text-slate-200 text-gray-800 text-sm leading-loose'>
-        © {new Date().getFullYear()} IntelliSlide-AI. All rights reserved.
+        <div className='space-x-4 text-center flex flex-col gep-2 dark:text-slate-200 text-gray-800 text-sm leading-loose'>
+          <div className=''>
+          © {new Date().getFullYear()} IntelliSlide-AI. All rights reserved.
+          </div>
+          <div className=''>
+          Developed by engrahmadaya.
+          </div>
         </div>
         <div
           className={cn(
