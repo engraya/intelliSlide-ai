@@ -16,8 +16,8 @@ const fontSans = PlusJakartaSans({
 })
 
 export const metadata: Metadata = {
-  title: "Presenta-AI – AI-Powered PowerPoint Generator",
-  description: "Create stunning PowerPoint presentations effortlessly with Presenta-AI. Just enter your topic, set parameters, and let AI generate a professional deck in minutes",
+  title: "IntelliSlide-AI – AI-Powered PowerPoint Generator",
+  description: "Create stunning PowerPoint presentations effortlessly with intelliSlide-AI. Just enter your topic, set parameters, and let AI generate a professional deck in minutes",
 };
 
 export default function RootLayout({
