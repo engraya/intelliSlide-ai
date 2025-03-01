@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const apiFetcher = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://intellislide-ai-api.onrender.com",
   });
