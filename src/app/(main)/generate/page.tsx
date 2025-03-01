@@ -13,7 +13,7 @@ import { LayoutPreference } from "@/types/types";
 
 function GeneratePage() {
   const [topic, setTopic] = useState<string>("");
-  const [numSlides, setNumSlides] = useState<number>(5);
+  const [numSlides, setNumSlides] = useState<number>(3);
   const [loading, setLoading] = useState<boolean>(false);
   const [pptFile, setPptFile] = useState<string>("");
   const [isFileReady, setIsFileReady] = useState<boolean>(false);
